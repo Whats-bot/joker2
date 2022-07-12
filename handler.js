@@ -1675,8 +1675,8 @@ break
                 m.reply(`Antilink Tidak Aktif !`)
                 } else {
                  let buttons = [
-                        { buttonId: 'antilink on', buttonText: { displayText: 'Включить' }, type: 1 },
-                        { buttonId: 'antilink off', buttonText: { displayText: 'Выключить' }, type: 1 }
+                        { buttonId: 'antilink on', buttonText: { displayText: 'Enable' }, type: 1 },
+                        { buttonId: 'antilink off', buttonText: { displayText: 'Disable' }, type: 1 }
                     ]
                     await kagura.sendButtonText(m.chat, buttons, `Mode Antilink`, kagura.user.name, m)
                 }
